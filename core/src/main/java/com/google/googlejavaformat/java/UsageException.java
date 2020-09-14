@@ -40,6 +40,8 @@ final class UsageException extends Exception {
     "    File name to use for diagnostics when formatting standard input (default is <stdin>).",
     "  --aosp, -aosp, -a",
     "    Use AOSP style instead of Google Style (4-space indentation).",
+    "  --max-line-length, -max-line-length",
+    "    Set the maximum allowed line length (default is 100).",
     "  --fix-imports-only",
     "    Fix import order and remove any unused imports, but do no other formatting.",
     "  --skip-sorting-imports",

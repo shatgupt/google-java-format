@@ -5,6 +5,11 @@
 
 [Google Java Style]: https://google.github.io/styleguide/javaguide.html
 
+## IMPORTANT: What's different about this fork?
+
+- This is a fork from upstream [at last commit](https://github.com/google/google-java-format/commit/eb76f92acdc2b02bacab29f412551c7c40ccb0e8) with support for Java 8.
+- This fork adds the flag: `--max-line-length` for configurability. Code lifted from this [fork from jaytaylor](https://github.com/jaytaylor/google-java-format/commit/cfdc969485ff1122f7a299990a1de7042019ac16)
+
 ## Using the formatter
 
 ### from the command-line
